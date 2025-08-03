@@ -1,6 +1,8 @@
+//注册时的名字
 # C:\Users\15423>git config --global user.name "znlnsn"
-
+//注册时的邮箱
 # C:\Users\15423>git config --global user.email "znlnsn@outlook.com"
+//生成密钥
 # C:\Users\15423>ssh-keygen -t rsa -C znlnsn@outlook.com
 C:\Users\15423>cd .ssh/
 
@@ -17,5 +19,5 @@ C:\Users\15423\.ssh>dir
                2 个文件          3,175 字节
                2 个目录 140,446,691,328 可用字节
 # C:\Users\15423\.ssh>type id_rsa.pub
-
+//测试是否联通
 # C:\Users\15423\.ssh>ssh -T  git@github.com
